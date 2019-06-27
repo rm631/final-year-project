@@ -1,0 +1,158 @@
+@font-face{
+	font-family: 'Meteora-DEMO';
+	src: url('../fonts/Blogger Sans-Bold.ttf');
+}
+
+body{
+	line-height: 17px;
+	background-color: #E6EAE8; 
+}
+
+.top_bar{
+	width: 100%;
+	min-width: 1050px;
+	height: 50px;
+	background-color: #EA1646;
+	border-bottom: 0.25em solid #540c1a;
+	margin: 0 0 10px 0;
+	display: inline-flex;
+	position: fixed;
+	z-index: 10px;
+}
+
+.logo a{
+	font-family: 'Meteora-DEMO',sans-serif;
+	margin-left: 10px;
+	font-size: 30;
+	position: relative;
+	top: 15px;
+	text-shadow: #540c1a 2px 2px 0px;
+	color:#fff;
+}
+
+a:hover{
+text-decoration: none;	
+}
+
+nav{
+	float: right;
+	right: 1px;
+	position: absolute;
+	margin: 10;
+}
+
+nav a{
+	position: relative;
+	color:#fff;
+	text-decoration: none;
+	font-size: 17px;
+	top: 6px;
+}
+
+nav a:hover{
+	border-bottom: 7px solid #fff;
+	color: #fff;
+}
+
+.wrapper{
+	margin: 0 auto;
+	top: 70px;
+	position: relative;
+	padding: 0 10px;
+	width: 75%;
+	min-width: 950px;
+}
+
+.column{
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px;
+	z-index: -1;
+	color:#D3D3D3;
+}
+
+.user_details{
+	width: 250px;
+	float: left;
+}
+
+.user_details_left_right{
+	width: 125px;
+	display: inline-block;
+	position: absolute;
+}
+
+.user_details img{
+	height: 125px;
+	border-radius: 5px;
+	margin-right: 5px;
+
+}
+
+.main_column{
+	float: right;
+	width: 70%;
+	z-index: -1;
+	min-height: 160px;
+	margin-right: 90px;
+
+
+}
+
+.post_form{
+	width: 100%;
+
+}
+
+.post_form textarea{
+
+	width:81%;
+	height: 60px;
+	border-radius: 3px;
+	margin-right: 5px;
+	border: 1px solid #D3D3D3;
+	font-size: 12px;
+	padding: 5px;
+}
+
+textarea:focus{
+	outline: 0;
+}
+
+.post_form input[type="submit"]{
+	width: 11%;
+	height: 60px;
+	border: none;
+	border-radius: 3px;
+	background-color:  #EA1646;
+	font-family: 'Meteora-DEMO',sans-serif;
+	color: #fff;
+	text-shadow: #540c1a 2px 2px 0px;
+	font-size: 90%;
+	position: absolute;
+	outline: 0;
+	margin: 0;
+}
+
+.post_form input[type="submit"]:active{
+	padding: 5px 4px 4px 5px;
+}
+
+.status_post{
+	width:96%;
+	font-size:15px;
+	padding:0px 5px;
+	min-height: 75px;
+	color: black;
+}
+
+.post_profile_pic{
+	float: left;
+	margin-right: 7px;
+}
+
+.post_profile_pic img{
+border-radius: 5px;
+}

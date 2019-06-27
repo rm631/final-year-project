@@ -1,0 +1,151 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+
+}
+
+.w3-sidebar {
+
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    float: left;
+    right:0px;
+    vertical-align: top;
+
+}
+
+.w3-bar-block .w3-bar-item {
+
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+    
+}
+
+.w3-bar-Friends{  
+    color: black;
+    font:36px bold italic;
+    padding-left: 15px;
+  }
+
+.w3-bar-Groups{  
+    color: black;
+    font:36px bold italic;
+    padding-left: 15px;
+  }
+
+html, body {
+
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+    
+}
+
+.videos{
+  padding-left: 55px;
+    padding-top: 75px;
+    padding-right: 300px;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #05345c;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #2196F3 ;
+  color: white ;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}

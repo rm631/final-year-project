@@ -1,0 +1,109 @@
+
+@font-face{
+	font-family: 'Meteora-DEMO';
+	src: url('../fonts/Blogger Sans-Bold.ttf');
+}
+
+form{
+	text-align: center;
+}
+
+html {
+ height: 100%;
+   background: url("../images/backgrounds/desktop.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+html, body{
+	height: 100%;
+	min-height: 100%;
+}
+
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color:#EA1646;
+}
+
+.wrapper{
+	width:100%;
+	height:100%;
+	min-width: 950px;
+
+}
+
+.login_box{
+	font-family: 'Meteora-DEMO', sans-serif;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 7%;
+	width: 35%;
+	background-color: #ffffff;
+	border: 1px solid #EDEDED;
+	border-radius: 7px;
+	padding: 5px;
+	opacity: 0.98;
+
+}
+
+.login_header{
+	font-family: 'Meteora-DEMO', sans-serif;
+	width: 100%;
+	height: 90px;
+	background-color: #EA1646;
+	color: #E5EEED;
+	text-align: center;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+
+.login_header h1{
+	font-family: 'Meteora-DEMO', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #fff; 
+	text-shadow: #fff 0.5px 0.5px 0px;
+	font-size: 250%;
+	padding-top: 10px;
+}
+
+input[type = "submit"]{
+	background-color: #EA1646;
+	padding: 5px 10px 5px 10px;
+	border:1px solid #EA1646;
+	border-radius: 3px;
+	margin:5px 0 10px 0;
+	color: #E5EEED; 
+	text-shadow: #fff 0.5px 0.5px 0px;
+	font-family: 'Meteora-DEMO', sans-serif;
+	font-size: 100%;
+}
+
+input[type = "text"],input[type = "email"],input[type = "password"]{
+	border:1px solid #E5E5E5;
+	margin-top: 5px;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+
+	}
+
+input[type = "text"]:hover,input[type = "email"]:hover,input[type = "password"]:hover{
+	border-color:#EA1646;
+	}
+
+#second{
+	display: none;
+}
